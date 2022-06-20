@@ -1,0 +1,54 @@
+html{
+    background-color: rgb(199, 248, 232);
+    
+}
+table{
+    border:0;
+    width:100%;
+    text-align: left;
+    padding: 0%;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin: 0%;
+    border-radius: 360px;
+    
+}.par{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    margin: 0px;
+    text-align: left;
+    
+}
+.bold{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.image{
+    text-align: start;
+}
+.small{
+    width: 15px;
+    height: 15px;
+}
+a{
+    text-decoration-line: none;
+}
+.dot{
+    text-align: center;
+    font-size: 50px;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+}
+div{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+   
+}

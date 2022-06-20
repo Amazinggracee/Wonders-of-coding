@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+	  <link rel="stylesheet" type="text/css" href="survey.css" />
+  </head>
+  <body>
+    <h1 id="title"> #LoveCode Survey Form</h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">Your name: <input id="name" type="text" placeholder="First Name" required /></label>
+      <label id="name-label">Your name: <input id="name" type="text" placeholder="Last Name" required /></label>
+      <label id="email-label">Your email: <input id="email" placeholder="Email" name="email" type="email" required /></label>
+      <label id="number-label">Your Age: <input id="number" type="number" min="4" Max="120" placeholder="Age" required /></label>
+       <label>Upload a profile picture: <input type="file" name="file" /></label>
+      </fieldset>
+      <fieldset>
+     <label>Which option best describes your current role? <select name="referrer" id="dropdown">
+         
+          <option value="" name="one">(select one)</option>
+            <option value="1" name="student">Student</option>
+            <option value="2" name="Full">Full time job</option>
+            <option value="3" name="learners">Full time learners</option>
+            <option value="4" name="not">Prefer not say</option> 
+            <option value="5" name="others">Others</option>
+          </select>
+          </label>
+          </fieldset>
+          <fieldset>
+<label>
+  Would you recommend #Lovecode to a friend?
+  </label>
+  <label>
+  <input type="radio" name="h" class="inline" value="definitely" />Definitely</label>
+        <label><input type="radio" name="h" class="inline" value="maybe" />Maybe</label>
+          <label><input type="radio" name="h" class="inline" value="notsure" />Not sure</label>
+          </fieldset>
+          <fieldset>
+          <label>What would you like to see improved? (Check all that apply)</label>
+          <label>
+          <input type="checkbox" name="Front" class="inline" value="Front-end" value="A" required /> Front-end Projects
+			  </label>
+        <label>
+          <input type="checkbox" name="back" class="inline" value="back-end" value="B"  required /> Back-end Projects
+			  </label>
+        <label>
+          <input type="checkbox" name="data" class="inline" value="data" value="C"  required />Data Visualization 
+			  </label>
+        <label>
+          <input type="checkbox" name="challenge" class="inline" value="challenge" value="D"  required /> Challenges
+			  </label>
+        <label>
+          <input type="checkbox" name="open" class="inline" value="open" value="E"  required /> Open Source Community
+			  </label>
+        <label>
+          <input type="checkbox" name="gitter" class="inline" value="gitter" value="F"  required /> Gitter help rooms
+			  </label>
+        <label>
+          <input type="checkbox" name="video" class="inline" value="video" value="G"  required />Videos 
+			  </label>
+        <label>
+          <input type="checkbox" name="meetup" class="inline" value="meetup" value="H"  required /> City Meetups
+			  </label>
+        <label>
+          <input type="checkbox" name="wiki" class="inline" value="wiki" value="I"  required /> Wiki
+			  </label>
+        <label>
+          <input type="checkbox" name="additional" class="inline" value="additional" value="J"  required />Additional Courses 
+			  </label>
+        </fieldset>
+        <fieldset>
+         <label>Provide a bio:
+          <textarea name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+			  </label>
+        </fieldset>
+        <button type = "submit" id = "submit" class="submit"> submit />
+       
+        
+    </form>
+  </body>
+</html>
